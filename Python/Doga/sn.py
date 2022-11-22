@@ -71,7 +71,17 @@ def szamol(orszag):
         if item.orszag== orszag:
             db+=1
     return db
-
+def f72():
+    #kulcs:orszag
+    #érték:db: adott orszabbol hany van 
+    stat={}
+    for item in versenyzok:
+        if item.orszag not in stat:
+            stat[item.orszag]= 0
+        stat[item.orszag]+=1
+    for item in stat:
+        if stat[item]>4:
+            print(F"{item}: {stat[item]}")
 
 beolvas()
 f3()
@@ -80,3 +90,4 @@ f5()
 vanE=f6("Norvégia")
 print(vanE)
 f7()
+f72()
