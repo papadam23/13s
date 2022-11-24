@@ -1,0 +1,32 @@
+.card-img-top {
+    object-fit: cover;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card {
+    width: 18%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.card-footer {
+    margin: auto;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
