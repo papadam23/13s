@@ -71,6 +71,16 @@ def f7():
         if item.típus=="közgazdaságtani":
             közgazdaságtani+=1
     print("Fizikai\t\t\t",fizikai ,"\nKémiai\t\t\t",kémiai,"\nOrvosi\t\t\t",orvosi,"\nIrodalmi\t\t",irodalmi,"\nBéke\t\t\t",béke,"\nKözgazdaságtani\t\t",közgazdaságtani)
+    
+    stat = {}
+    for item in lista:
+        kulcs = item.típus
+        if kulcs not in stat:
+            stat[kulcs]=0
+        stat[kulcs]+=1
+    for item in stat:  #item: kulcs
+        print(f"{item:25} {stat[item]:6}")
+
 
 def f8():
     f=open("orvosi.txt", "w" ,encoding="UTF8")
