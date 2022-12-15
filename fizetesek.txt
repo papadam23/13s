@@ -1,0 +1,5 @@
+név:Horvát Balázs, fizu:260000 
+név:Nagy Béla, fizu:180000 
+név:Kiss Ágnes, fizu:350000 
+név:Ó Kázmér, fizu:420000 
+név:Zoltán Erika, fizu:18000 

@@ -44,7 +44,7 @@ def f5():
 
 def f6():
     print("6.feladat: ")
-    név="Curie"
+    név="Curie" 
     for item in lista:
         if név in item.vezeteknev:
                 print(item.evszam,":" , item.keresztnev, item.vezeteknev, "(", item.típus,")")

@@ -1,0 +1,7 @@
+input:valid{
+    background-color: rgb(20, 176, 197);
+}
+
+input:invalid{
+    background-color: red;
+}
